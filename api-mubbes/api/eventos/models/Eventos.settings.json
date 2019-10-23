@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "eventos",
+  "info": {
+    "name": "eventos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "data": {
+      "type": "date"
+    },
+    "local": {
+      "type": "string"
+    }
+  }
+}
