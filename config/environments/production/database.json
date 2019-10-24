@@ -4,13 +4,13 @@
     "default": {
       "connector": "strapi-hook-bookshelf",
       "settings": {
-        "client": "sqlite",
-        "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
-        "port": "${process.env.DATABASE_PORT || 27017}",
+        "client": "mysql",
+        "host": "${process.env.DATABASE_HOST || 'us-cdbr-iron-east-05.cleardb.net'}",
+        "port": "${process.env.DATABASE_PORT || 3306}",
         "srv": "${process.env.DATABASE_SRV || false}",
-        "database": "${process.env.DATABASE_NAME || 'strapi'}",
-        "username": "${process.env.DATABASE_USERNAME || ''}",
-        "password": "${process.env.DATABASE_PASSWORD || ''}",
+        "database": "${process.env.DATABASE_NAME || 'heroku_97aa242e8af9f29'}",
+        "username": "${process.env.DATABASE_USERNAME || 'bf599ab67944d4'}",
+        "password": "${process.env.DATABASE_PASSWORD || '175ebd2d'}",
         "ssl": "${process.env.DATABASE_SSL || false}"
       },
       "options": {
